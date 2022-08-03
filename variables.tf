@@ -5,7 +5,7 @@ variable "rg" {
 
 variable "location" {
     type = string
-    default = "Japan East"
+    default = "West US"
 }
 
 variable "prefix" {
