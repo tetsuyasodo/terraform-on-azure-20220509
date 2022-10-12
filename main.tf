@@ -1,10 +1,10 @@
-terraform {
-  backend "azurerm" {
-    storage_account_name = "tfstate17967"
-    container_name       = "tfstate"
-    key                  = "terraform.tfstate"
-  }
-}
+#terraform {
+#  backend "azurerm" {
+#    storage_account_name = "tfstate17967"
+#    container_name       = "tfstate"
+#    key                  = "terraform.tfstate"
+#  }
+#}
 
 provider "azurerm" {
   features {}
